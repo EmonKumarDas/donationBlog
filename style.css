@@ -1,0 +1,181 @@
+body{
+font-family: 'Gentium Book Plus', serif;
+}
+*{
+    margin: 0;
+}
+section{
+    margin-bottom: 5%;
+}
+.Header-section{
+
+    height: 500px;
+    background-image: url("images/donation13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header-img h1,p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+}
+.header-img h1{
+    padding-top: 10%;
+    font-size: 40px;
+}
+
+button{
+    margin-left: 43%;
+    margin-top: 30px;
+    justify-content: center;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #FF5959;
+    /* background-image:linear-gradient(rgb(255, 136, 0), rgb(230, 8, 8)); */
+}
+
+.Donate-blog h1,p{
+    text-align: center;
+}
+.Donate-blog p{
+    color: black;
+    
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+ 
+}
+.card1 h2{
+text-align: center;
+}
+.card1{
+    border-radius: 5px;
+    background-color: rgb(241, 236, 236);
+    width: 5%;
+    padding: 2%;
+}
+.hover{
+    border: 3px solid rgba(228, 40, 15, 0.849);
+    color: red;
+    background-color: rgba(255, 0, 0, 0.096);
+}
+.Donate input{
+   margin-left: 100px;
+    margin-top: 3%;
+    width: 76%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 20px;
+}
+::placeholder{
+    text-align: center;
+}
+.donate-plan-card{
+    margin-top: 50px;
+    justify-content: space-evenly;
+    display: flex;
+}
+.donates-plan-card{
+   border-radius: 10px;
+    width: 20%;
+    padding: 20px;
+}
+.donates-plan-card p{
+text-align: left;
+}
+.d-card1{
+    background-color: rgba(127, 255, 212, 0.158);;
+}
+.d-card2{
+    background-color: rgba(255, 163, 127, 0.123);;
+}
+.d-card3{
+    background-color: rgba(127, 140, 255, 0.13);;
+}
+.people-bio{
+    margin-top: 50px;
+}
+.Help-people h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.help-card1 p{text-align: start;}
+.help-card1 h3{
+    margin-top: 20px;
+}
+.Help-people p{
+    color: black;
+    
+}
+.people-bio{
+    display: flex;
+}
+.help-card1 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.help-card1{
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 10%;
+    padding: 2%;
+    border-radius: 10px;
+}
+.help-card1 button{
+  margin-left: 23%; 
+}
+.update h1{
+    text-align: center;
+}
+.update p{
+    color: black;
+}
+.d-input{
+    justify-content: center;
+    margin-top: 80px;
+    display: flex;
+    background-color: #ffb75921;
+    padding: 90px 30px;
+    width: 60%;
+    margin-left: 17%;
+}
+.d-input input{
+    width: 30%;
+    height: 42px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-radius: none;
+    background-color: rgba(128, 128, 128, 0.164);
+}
+.d-input a{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #FF5959;
+    width: 100px;
+}
+footer{
+    background-color: black;
+    padding: 50px;
+    
+}
+footer h2{
+    color:rgba(255, 0, 0, 0.493);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
